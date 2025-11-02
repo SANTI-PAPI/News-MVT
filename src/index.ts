@@ -1,16 +1,15 @@
 import express, { Application } from 'express'
-import ProductRouter from './menu/router/ProductRouter'
-import ProductView from './menu/view/ProductView'
+import MenuRouter from './menu/router/MenuRouter'
+import { MenuView } from './menu/view/MenuView'
 import path from 'node:path'
-import ErrorRouter from './error/router/errorRouter'
+import ErrorRouter from './error/router/ErrorRouter'
 import ErrorView from './error/view/ErrorView'
-import ProductModel from './menu/model/ProductModel'
 
 export default class Server {
     private readonly app: Application
 
     constructor(
-        private readonly productRouter: ProductRouter,
+        private readonly menuRouter: MenuRouter,
         private readonly errorRouter: ErrorRouter
     ) {
         this.app = express()
@@ -23,11 +22,10 @@ export default class Server {
         this.app.use(express.json())
         this.app.use(express.urlencoded({ extended: true }))
         this.app.set('view engine', 'ejs')
-        this.app.set('views', path.join(__dirname, './template'))
     }
 
     private readonly routes = (): void => {
-        this.app.use('/products', this.productRouter.router)
+        this.app.use('/', this.menuRouter.router)
         this.app.use('/{*any}', this.errorRouter.router)
     }
 
@@ -45,7 +43,7 @@ export default class Server {
 }
 
 const server = new Server(
-    new ProductRouter(new ProductView(new ProductModel())),
+    new MenuRouter(new MenuView()),
     new ErrorRouter(new ErrorView())
 )
 server.start()

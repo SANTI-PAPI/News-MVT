@@ -1,20 +1,16 @@
-import { MenuModel } from '../model/MenuModel';
-import { MenuInterface } from '../types/MenuInterface';
+// src/menu/view/MenuView.ts
+import { Request, Response } from "express";
+import path from "node:path";
 
-export default class MenuView {
-    private readonly model: MenuModel;
+export class MenuView {
+    static renderMain(_req: Request, res: Response) {
+        const viewPath = path.join(__dirname, "../template/menu.ejs");
 
-    constructor() {
-        this.model = new MenuModel();
-    }
+        const data = {
+            title: "Noticias - Portal Principal",
+            user: "Invitado", // luego puedes cambiar esto si hay sesión
+        };
 
-    render(): { menuItems: MenuInterface[] } {
-        const menuItems = this.model.getMenuItems();
-        return { menuItems };
-    }
-
-    renderDetail(menuId: number): { menuItem: MenuInterface | undefined } {
-        const menuItem = this.model.getMenuItemById(menuId);
-        return { menuItem };
+        res.render(viewPath, data);
     }
 }

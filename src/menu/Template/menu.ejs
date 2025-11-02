@@ -1,32 +1,16 @@
-<!DOCTYPE html>
-<html xml:lang="es">
-<head>
-    <title>Menú Principal</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/menu.css">
-</head>
-<body>
-    <div class="container">
-        <div class="menu-container">
-            <h1>Menú Principal</h1>
-            <div class="menu-grid">
-                <% menuItems.forEach(item => { %>
-                    <div class="menu-card">
-                        <div class="menu-icon">
-                            <% if (item.icon) { %>
-                                <i class="<%= item.icon %>"></i>
-                            <% } else { %>
-                                <i class="fas fa-folder"></i>
-                            <% } %>
-                        </div>
-                        <h3><%= item.title %></h3>
-                        <p><%= item.description %></p>
-                        <a href="<%= item.route %>" class="menu-link">Acceder</a>
-                    </div>
-                <% }); %>
-            </div>
-        </div>
-    </div>
-</body>
+<!-- src/menu/template/menu.ejs -->
+<%- include("layout", { title: title, body: ` <section class="menu-container">
+    <h1>Bienvenido <%= user %></h1>
 
-</html>
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar noticia..." id="search-news" />
+        <button> </button>
+    </div>
+
+    <section id="news-section">
+        <p>Aquí se mostrarán las noticias más recientes...</p>
+    </section>
+    </section>
+    `
+    }) %>
+    s

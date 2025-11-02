@@ -2,7 +2,7 @@ import { MenuInterface } from '../types/MenuInterface';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 
-export class MenuModel {
+export default class MenuModel {
     private readonly dataPath = path.join(__dirname, '../../../../data/menu.json');
     
     getMenuItems(): MenuInterface[] {

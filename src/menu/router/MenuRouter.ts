@@ -1,15 +1,10 @@
-import { Router } from 'express'    
-import MenuView  from '../view/MenuView'
+// src/menu/router/MenuRouter.ts
+import { Router } from "express";
+import { MenuView } from "../view/MenuView";
 
-export default class ProductRouter {
-    router: Router
+const router = Router();
 
-    constructor(private readonly menuView: MenuView) {
-        this.router = Router()
-        this.routes()
-    }
+// Página principal
+router.get("/", MenuView.renderMain);
 
-    readonly routes = () => {
-        this.router.get('/v1.0/list', this.menuView.render)
-    }
-}
+export default router;
