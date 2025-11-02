@@ -1,7 +1,7 @@
 import { MenuModel } from '../model/MenuModel';
 import { MenuInterface } from '../types/MenuInterface';
 
-export class MenuView {
+export default class MenuView {
     private readonly model: MenuModel;
 
     constructor() {
