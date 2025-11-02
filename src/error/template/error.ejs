@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xml:lang="es">
+<head>
+    <title><%= error.title %></title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/errors.css">
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-card">
+            <div class="error-code"><%= error.code %></div>
+            <h1 class="error-title"><%= error.title %></h1>
+            <p class="error-message"><%= error.message %></p>
+            <a href="/" class="btn-home">Volver al Inicio</a>
+        </div>
+    </div>
+</body>
+</html>
