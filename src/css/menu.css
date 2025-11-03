@@ -6,10 +6,11 @@ body {
 
 .header,
 .footer {
-    background-color: #222;
     color: white;
     text-align: center;
     padding: 1rem;
+    margin-top: auto;
+
 }
 
 .navbar ul {
@@ -28,8 +29,9 @@ body {
 }
 
 .menu-container {
-    padding: 2rem;
     text-align: center;
+    min-height: 80vh;
+
 }
 
 .search-bar {
@@ -41,4 +43,7 @@ body {
     width: 50%;
     border-radius: 5px;
     border: 1px solid #aaa;
+}
+.header h1 {
+    margin: 0;
 }

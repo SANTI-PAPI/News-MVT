@@ -1,16 +1,15 @@
 // src/menu/view/MenuView.ts
 import { Request, Response } from "express";
 import path from "node:path";
+import { MenuModel } from "../model/MenuModel";
 
-export class MenuView {
-    static renderMain(_req: Request, res: Response) {
-        const viewPath = path.join(__dirname, "../template/menu.ejs");
+export default class MenuView {
+    renderMain = (_req: Request, res: Response): void => {
+        const menuItems = MenuModel.getMenuItems();
 
-        const data = {
-            title: "Noticias - Portal Principal",
-            user: "Invitado", // luego puedes cambiar esto si hay sesión
-        };
-
-        res.render(viewPath, data);
-    }
+        res.render(path.join(__dirname, "../template/menu.ejs"), {
+            title: "Portal de Noticias",
+            menu: menuItems,
+        });
+    };
 }

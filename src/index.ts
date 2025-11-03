@@ -1,6 +1,6 @@
 import express, { Application } from 'express'
 import MenuRouter from './menu/router/MenuRouter'
-import { MenuView } from './menu/view/MenuView'
+import MenuView from './menu/view/MenuView'
 import path from 'node:path'
 import ErrorRouter from './error/router/ErrorRouter'
 import ErrorView from './error/view/ErrorView'
