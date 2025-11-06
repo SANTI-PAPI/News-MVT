@@ -11,7 +11,7 @@ export class MenuModel {
             { name: "Inicio", link: "/" },
             { name: "Noticias", link: "/noticias" },
             { name: "Categorías", link: "/categorias" },
-            { name: "Contacto", link: "/contacto" }
+            { name: "About", link: "/About" }
         ];
     }
 }

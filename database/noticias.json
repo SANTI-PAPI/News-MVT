@@ -1,0 +1,517 @@
+{
+    "noticias": [
+        {
+            "id": 1,
+            "titulo": "VIZLA",
+            "descripcion": "Desarrollo de módulo para la gestión de usuarios, comunicación mediante correo electronico, servicio de notificaiones, para el proyecto Nexus Battle 4 'new hope'.",
+            "participantes": [
+                "Carlos Ortiz ",
+                "Andrés Pico ",
+                "David Ricardo Hernandez ",
+                "Santiago Gómez"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "/images/VIZLA/vizla1.jpg",
+            "imagenes": [
+                "/images/VIZLA/vizla1.jpg",
+                "/images/VIZLA/vizla4.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Santiago Niño",
+                    "mensaje": "Excelente trabajo, el diseño del menú quedó limpio y funcional.",
+                    "fecha": "2025-11-01T20:15:00"
+                },
+                {
+                    "usuario": "Laura Gómez",
+                    "mensaje": "Falta agregar las secciones de categorías y contacto.",
+                    "fecha": "2025-11-01T21:00:00"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "titulo": "ELDAR",
+            "descripcion": "Módulo de torneo Batallas, Misiones del juego Nexus Battle 4 'new hope', desarrollo y demás módulos del juego.",
+            "participantes": [
+                "Pedro Mateo Espinel Dominguez ",
+                "Daniel Felipe Gutierrez Mejia ",
+                "Lenny Alejandr Rincón Ramirez ",
+                "Diego Alejandro Suarez Mendoza ",
+                "Branda Luz Salcedo Hernandez "
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "images/ELDAR/new3.jpg",
+            "imagenes": [
+                "images/ELDAR/new1.jpg",
+                "images/ELDAR/new4.jpg"
+            ],
+            "comentarios": []
+        },
+        {
+            "id": 3,
+            "titulo": "KRYZE",
+            "descripcion": "Desarrollo de interacciones de la batalla integrando un modelo de IA para la ejecución de misiones, torneos y enfrentamientos multijugador.",
+            "participantes": [
+                "Camilo Andrés Rodriguez Forero  ",
+                "Juan Pablo Carvajal Giraldo ",
+                "Jesús David Falon Palmezano",
+                "Ruben Santiago Blandón Ardila ",
+                "José Daniel Leguizamo Vásquez "
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "images/KRYZE/kry1.jpg",
+            "imagenes": [
+                "images/KRYZE/kry2.jpg",
+                "images/KRYZE/kry6.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "titulo": "ROOK",
+            "descripcion": "Desarrollo del módulo de Subastas en linea, Chat Bot interactivo y alertas de subastas para el juego Nexus Battle 4 'new hope'.",
+            "participantes": [
+                "Gian Kieffer Toledo De la Cruz ",
+                "William Oswaldo Sanabria Gutierrez ",
+                "Santiago Castellanos Rincón",
+                "Lui Alfredo Fuentes Romero"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "/images/ROOK/rook1.jpg",
+            "imagenes": [
+                "/images/ROOK/rook1.jpg",
+                "/images/ROOK/rook2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Santiago Niño",
+                    "mensaje": "Excelente trabajo, el diseño del menú quedó limpio y funcional.",
+                    "fecha": "2025-11-01T20:15:00"
+                },
+                {
+                    "usuario": "Laura Gómez",
+                    "mensaje": "Falta agregar las secciones de categorías y contacto.",
+                    "fecha": "2025-11-01T21:00:00"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "titulo": "WREN",
+            "descripcion": "Desarrollo del módulo de enfrentamientos contra la 'maquina' mediante el uso de un modelo de inteligencia artificial para el juego Nexus Battle 4 'new hope'.",
+            "participantes": [
+                "Raul Santiago Hallado Abaunza ",
+                "Johan David Rodriguz Castro ",
+                "Jeison Steven Florez Julio ",
+                "Joseph Camilo Urquijo Bautista "
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "/images/WREN/wa1.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": []
+        },
+        {
+            "id": 6,
+            "titulo": "ARRYN",
+            "descripcion":  "Se presentó un sistema que permite la busqueda de un producto en diferentes paginas por medio de web scrapping comparando los precios y calificaciones de los mismos y realizando recomendaciones personalizadas de con un algoritmo de IA",
+            "participantes": [
+                "Juan Camilo Gómez Manotas ",
+                "Juan David Monsalve Niño ",
+                "Nicolas Rodríguez Acevedo ",
+                "Sofía Santis Silva",
+                "Tomás Uribe Sanchez"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "titulo": "BARATHEON",
+            "descripcion": "Se llevó a cabo la presentación del aplicativo QueHayPaHacer, una plataforma que recompila, organiza y centraliza informacion sobre eventos culturales en colombia, que generalmente se encuentra dispersa en multiples fuentes",
+            "participantes": [
+                "Fernando Cancelado Figueroa ",
+                "Zarhet Valentina Fuentes Mejía",
+                "Nicolas García Mejía"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Santiago Niño",
+                    "mensaje": "Excelente trabajo, el diseño del menú quedó limpio y funcional.",
+                    "fecha": "2025-11-01T20:15:00"
+                },
+                {
+                    "usuario": "Laura Gómez",
+                    "mensaje": "Falta agregar las secciones de categorías y contacto.",
+                    "fecha": "2025-11-01T21:00:00"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "titulo": "LANNISTER",
+            "descripcion": "El grupo lannister presento su sistema de noticias en tiempo real, el cual por medio de web scrapping recolecta noticias en tiempo real desde multiples portales digitales, implementaron un chatbot basado en FAQs y mBERT para responder preguntas frecuentes y ofrecer informacion contextual de las noticias.",
+            "participantes": [
+                "Samuel Arango Diaz ",
+                "Juan Manuel Guerrero Rueda ",
+                "Wilson Andrés Moreno Velandia ",
+                "Néstor Stiven Pabón Florez",
+                "Sergio Alejandro Sanabria Moreno"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "/images/LANISTERNEWS/la1.jpg",
+            "imagenes": [
+                "/images/LANISTERNEWS/la2.jpg",
+                "/images/LANISTERNEWS/la3.jpg"
+            ],
+            "comentarios": []
+        },
+        {
+            "id": 9,
+            "titulo": "STARK",
+            "descripcion": "El equipo Stark presento presento su sistema de noticias, el cual mendiante web scrapping/crawling recolecta noticias sobre el mundo financiero y de trading, soportado por un sistema de chatbot.",
+            "participantes": [
+                "Juan Sebastián Granados Jaimes ",
+                "Juan Carlos Niño Osorio ",
+                "Leyder Steven Ortiz Jaimes ",
+                "Jorge Luis Osorio Silva"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "/images/STARKADVISOR/st1.jpg",
+            "imagenes": [
+                "/images/STARKADVISOR/st2.jpg",
+                "/images/STARKADVISOR/st3.jpg",
+                "/images/STARKADVISOR/st4.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "titulo": "LearnIA",
+            "descripcion": "sistema de web scrapping con inteligencia artificial que buscaba establecer una ruta de aprendizaje con contenido educativo y cursos",
+            "participantes": [
+                "Raul Ferney Lozano Navarro ",
+                "María Angelica Parra Grazt",
+                "Jerson arley Porras Lozano ",
+                "Juan Andrés Contreras Hernández",
+                "Karen Nicol Dayanna Lizarazo Ortiz"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "/images/LEARNIA/l1.jpg",
+            "imagenes": [
+                "/images/LEARNIA/l2.jpg",
+                "/images/LEARNIA/l3.jpg",
+                "/images/LEARNIA/l12.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "titulo": "TYRELL",
+            "descripcion": "El equipo tyrell presento un chatbot al cual se le podia preguntar acerca de un producto y este buscaria y responderia con las promociones que encuentre en diversas fuentes (solo mostraba alkosto)",
+            "participantes": [
+                "Juan Pablo Silva Vásquez",
+                "Cristian Camilo Plata",
+                "Cristian Andres Gomez Jaimes",
+                "Daniel Felipe Aguilar",
+                "Rober Julian Quintero Oviedo"
+            ],
+            "fecha": "2025-10-28",
+            "materia": "Proyecto integrador 2",
+            "imagenPrincipal": "/images/TYRREL/ty1.jpg",
+            "imagenes": [
+                "/images/TYRREL/ty2.jpg",
+                "/images/TYRREL/ty3.jpg",
+                "/images/TYRREL/ty4.jpg",
+                "/images/TYRREL/ty5.jpg",
+                "/images/TYRREL/ty6.jpg"
+                
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Santiago Niño",
+                    "mensaje": "Excelente trabajo, el diseño del menú quedó limpio y funcional.",
+                    "fecha": "2025-11-01T20:15:00"
+                },
+                {
+                    "usuario": "Laura Gómez",
+                    "mensaje": "Falta agregar las secciones de categorías y contacto.",
+                    "fecha": "2025-11-01T21:00:00"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "titulo": "Sistema Gestion de Trenes",
+            "descripcion": "El grupo 1 presento su sistema de gestion de trenes de transporte de pasajeros, utilizaron figma  para sus diseños, al usar estructuras de datos lograron entregar un poroyecto formado, aunque no se viese su funcionalidad",
+            "participantes": [
+                "Santiago Prada Pinilla ",
+                "Juliana Mateo  Sierra Vargas"
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Estructuras de Datos",
+            "imagenPrincipal": "/images/grupo1estrucuturas/1.jpg",
+            "imagenes": [
+                "/images/grupo1estrucuturas/1.jpg",
+                "/images/grupo1estrucuturas/2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "ing. Lenin Javier Serrano Gil",
+                    "mensaje": "el profe lenin dijo que no tenian nada presentable, ademas de que durante toda la presentacion estaban leyendo",
+                    "fecha": "2025-10-30T18:45:00"
+                },
+                {
+
+                    "usuario": "ing Francisco Jesús Molina Bovea ",
+                    "mensaje": "el profe francisco remarco que estuvieron leyendo todas las diapositivas, adicionalmente, argumento que no tenian marco conceptual y que se veia muy improvisado, finalmente comento que colocaron objetivos en el marco conceptual",
+                    "fecha": "2025-10-30T19:00:00"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "titulo": "Sistema Gestion de Trenes",
+            "descripcion": "El grupo 2 presento su sistema de gestion de trenes de transporte de pasajeros, y aunque tuvieron una presentacion decente, fallaron en ciertos aspectos, como la puntualidad y la actitud para exponer, adicionalmente no supieron manejar el tiempo, lo que los hizo recortar su exposicion. El equipo planteo mal sus objetivos y no dio el nombre de la metodologia implementada, presento correctamente el dominio del proyecto, funcionando por medio de un server http, y aunque la presentacion se siente desordenada, se presento la informacion adecuada",
+            "participantes": [
+                "Alexander Gómez Grajales",
+                "Albert David Lopez Pinzón ",
+                "Jhaider David Zambrano Parra "
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Estructuras de Datos",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+            
+            ],
+            "comentarios": [
+                
+            ]
+        },
+        {
+            "id": 14,
+            "titulo": "Sistema Gestion de Trenes",
+            "descripcion": "el grupo 3 presento su proyecto de gestion de trenes de transporte de pasajeros, dando una muy buena presentacion, y aunque fallaron en no presentar conclusiones en las diapositivas, las lograron presentar improvisadamente al final de la exposicion. Adicionalmente, se destaca que usaron la metodologia kanban para coordinarse como equipo y que presentaron correctamente la justificacion del proyecto.",
+            "participantes": [
+                "María Catalina Sanchez Saavedra ",
+                "Juan José Gonzalez Rosales"
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Estructuras de Datos",
+            "imagenPrincipal": "/images/grupo2estrucuturas/1.jpg",
+            "imagenes": [
+                "/images/grupo2estrucuturas/2.jpg",
+                "/images/grupo2estrucuturas/3.jpg",
+                "/images/grupo2estrucuturas/4.jpg",
+                "/images/grupo2estrucuturas/5.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Santiago Niño",
+                    "mensaje": "Excelente trabajo, el diseño del menú quedó limpio y funcional.",
+                    "fecha": "2025-11-01T20:15:00"
+                },
+                {
+                    "usuario": "Laura Gómez",
+                    "mensaje": "Falta agregar las secciones de categorías y contacto.",
+                    "fecha": "2025-11-01T21:00:00"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "titulo": "URBAN SHOES",
+            "descripcion": "El grupo urban shoes presento su sistema de inventario de zapatos, pudiendo llevar un control del stock, actualizar la informacion del mismo y registrar movimientos de venta, implementaron la metodologia del prototipado y aunque la exposicion estuvo decente. Cabe destacar del grupo que investigaron correctamente sobre su problematica, comunicandose con estudiantes de la facultad de ingenieria industrial para entender el problema a tratar",
+            "participantes": [
+                "Gabriel Matías Rodríguez Castro ",
+                "Juan Pablo Medina Meneses",
+                "Jorge Andrés Gonzales Figueroa",
+                "Jhostyn Santiago Gualdron ",
+                "Carlos David Figueroa Arguello ",
+                "Luis Eduardo Morales Palencia "
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Ingeniería de Software",
+            "imagenPrincipal": "/images/URBANSHOES/UR1.JPG",
+            "imagenes": [
+                "/images/URBANSHOES/UR2.JPG",
+                "/images/URBANSHOES/UR3.JPG",
+                "/images/URBANSHOES/UR4.JPG",
+                "/images/URBANSHOES/UR5.JPG",
+                "/images/URBANSHOES/UR6.JPG",
+                "/images/URBANSHOES/UR7.JPG",
+                "/images/URBANSHOES/UR8.JPG"
+            ],
+            "comentarios": []
+        },
+        {
+            "id": 16,
+            "titulo": "RANA SHOES",
+            "descripcion": "sistema en el cual gestionaban la creacion de zapatos, permitiendo sistematizar el proceso productivo, sin embargo la presentacion fue deficiente, destacando que presentaron un diagrama de clases sin sentido, y que los requerimientos no especificaban nada. Cabe destacar que el grupo empezo la presentacion sin un integrante.",
+            "participantes": [
+                "Ana ",
+                "Luis ",
+                "Marta "
+            ],
+            "fecha": "2025-10-30",
+            "materia": "Arquitectura de Software",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "titulo": "Grupo Alfa",
+            "descripcion": "Se llevó a cabo la presentación del nuevo sistema de noticias con arquitectura MVT.",
+            "participantes": [
+                "Ana ",
+                "Luis ",
+                "Marta "
+            ],
+            "fecha": "2025-11-01",
+            "materia": "Desarrollo Web",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Santiago Niño",
+                    "mensaje": "Excelente trabajo, el diseño del menú quedó limpio y funcional.",
+                    "fecha": "2025-11-01T20:15:00"
+                },
+                {
+                    "usuario": "Laura Gómez",
+                    "mensaje": "Falta agregar las secciones de categorías y contacto.",
+                    "fecha": "2025-11-01T21:00:00"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "titulo": "Equipo Beta",
+            "descripcion": "El grupo Beta completó la implementación del sistema de búsqueda en el menú principal.",
+            "participantes": [
+                "Ana ",
+                "Luis ",
+                "Marta "
+            ],
+            "fecha": "2025-10-31",
+            "materia": "Programación Avanzada",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": []
+        },
+        {
+            "id": 19,
+            "titulo": "Desarrolladores Gamma",
+            "descripcion": "Publicaron un artículo sobre cómo mantener una arquitectura limpia con TypeScript y Express.",
+            "participantes": [
+                "Ana ",
+                "Luis ",
+                "Marta "
+            ],
+            "fecha": "2025-10-30",
+            "materia": "Arquitectura de Software",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "titulo": "Desarrolladores Gamma",
+            "descripcion": "Publicaron un artículo sobre cómo mantener una arquitectura limpia con TypeScript y Express.",
+            "participantes": [
+                "Ana ",
+                "Luis ",
+                "Marta "
+            ],
+            "fecha": "2025-10-30",
+            "materia": "Arquitectura de Software",
+            "imagenPrincipal": "seguridad.jpg",
+            "imagenes": [
+                "2_1.jpg",
+                "2_2.jpg"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        }
+        
+    ]
+
+}

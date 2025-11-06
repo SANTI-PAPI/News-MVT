@@ -1,0 +1,40 @@
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+.content {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
+}
+
+.navbar a:hover {
+    background-color: aliceblue;
+    color: rgb(75, 75, 75) !important;
+}
+
+.navbar input {
+    color: rgb(202, 210, 218);
+    width:100% ;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+
+.navbar input::placeholder {
+    color: rgb(202, 210, 218);
+
+}
+
+
+
+.navbar button {
+    color: rgb(202, 210, 218);
+}

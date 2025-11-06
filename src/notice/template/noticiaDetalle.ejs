@@ -1,0 +1,50 @@
+<div class="container mt-5">
+    <h2 class="mb-3">
+        <%= noticia.titulo %>
+    </h2>
+    <p class="text-muted text-">Materia: <strong>
+            <%= noticia.materia %>
+        </strong> | Fecha: <%= noticia.fecha %>
+    </p>
+
+    <img src="<%= noticia.imagenPrincipal %>" class="img-fluid rounded mb-4" alt="<%= noticia.titulo %>">
+
+    <p>
+        <%= noticia.descripcion %>
+    </p>
+
+    <h5 class="mt-5 mb-3">Galería del evento</h5>
+    <div id="carouselNoticia" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <% noticia.imagenes.forEach((img, index)=> { %>
+                <div class="carousel-item <%= index === 0 ? 'active' : '' %>">
+                    <img src="<%= img %>" class="d-block w-100 rounded" alt="<%= index + 1 %>">
+                </div>
+                <% }); %>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticia" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticia" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="mt-5">
+        <h5>Comentarios</h5>
+        <% if (noticia.comentarios.length> 0) { %>
+            <ul class="list-group">
+                <% noticia.comentarios.forEach(c=> { %>
+                    <li class="list-group-item">
+                        <strong>
+                            <%= c.usuario %>:
+                        </strong>
+                        <%= c.mensaje %>
+                    </li>
+                    <% }); %>
+            </ul>
+            <% } else { %>
+                <p class="text-muted">No hay comentarios aún.</p>
+                <% } %>
+    </div>
+</div>

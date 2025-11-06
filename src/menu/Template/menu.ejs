@@ -1,11 +1,59 @@
 <!-- src/menu/template/menu.ejs -->
-<%- include("layout", { title: title, body: ` <section class="menu-container text-center">
-    <h1>Bienvenido </h1>
+<%- include("layout", { title: title, body: ` <!-- src/menu/template/menu.ejs -->
+    <main class="container mt-4">
+        <!-- Sección principal con fondo -->
+        <article class="p-5 mb-4 text-white rounded-3 bg-secondary" >
+            <div class="container py-5">
+                <h1 class="display-5 fw-bold text-center">PROYECTOS UPB</h1>
+                <p class="col-md-10 fs-5 mx-auto text-center">
+                    Bienvenido al portal de proyectos de la Universidad Pontificia Bolivariana.
+                    Aquí encontrarás las iniciativas académicas y de innovación más recientes
+                    desarrolladas por nuestros estudiantes y docentes.
+                </p>
+            </div>
+        </article>
 
-    <section id="news-section">
-        <p>Aquí se mostrarán las noticias más recientes...</p>
-    </section>
-    </section>
+        <!-- Sub-sección 1 -->
+        <section class="py-4 border-bottom">
+            <h2 class="fw-bold text-center text-uppercase mb-3">Innovación Tecnológica</h2>
+            <p class="text-center mx-auto col-md-8">
+                Descubre cómo nuestros estudiantes aplican la tecnología en proyectos reales que
+                impactan la sociedad. Desde sistemas inteligentes hasta plataformas web de última generación.
+            </p>
+        </section>
+
+        <!-- Sub-sección 2 -->
+        <section class="py-4 border-bottom">
+            <h2 class="fw-bold text-center text-uppercase mb-3">Investigación y Desarrollo</h2>
+            <p class="text-center mx-auto col-md-8">
+                Fomentamos la investigación como eje fundamental del aprendizaje. Explora los proyectos
+                desarrollados en áreas como ingeniería, ciencias sociales y comunicación.
+            </p>
+        </section>
+
+        <!-- Sub-sección 3 -->
+        <section class="py-4 border-bottom">
+            <h2 class="fw-bold text-center text-uppercase mb-3">Noticias Recientes</h2>
+            <p class="text-center mx-auto col-md-8">
+                Mantente informado sobre los eventos, logros y publicaciones más destacadas de nuestra comunidad
+                universitaria.
+            </p>
+            <div class="text-center mt-3">
+                <a href="/noticias" class="btn bg-secondary text-white">Ver Noticias</a>
+            </div>
+        </section>
+
+        <!-- Sección final -->
+        <article class="p-5 mt-4 rounded-3">
+            <div class="container py-4 text-center">
+                <h2 class="fw-bold">Comprometidos con el futuro</h2>
+                <p class="col-md-8 mx-auto">
+                    En la UPB trabajamos cada día por construir conocimiento que transforma vidas.
+                    Este espacio es una muestra del talento, la creatividad y el compromiso de nuestra comunidad.
+                </p>
+            </div>
+        </article>
+    </main>
+
     `
     }) %>
-    

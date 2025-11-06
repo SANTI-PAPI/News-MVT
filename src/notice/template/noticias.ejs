@@ -1,0 +1,37 @@
+<div class="container my-4">
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-3">
+        <% noticias.forEach(noticia=> { %>
+            <div class="col">
+                <div class="card h-100 shadow-sm" id="notice-card">
+                    <img src="<%= noticia.imagenPrincipal %>" class="card-img-top" alt="<%= noticia.titulo %>">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">
+                            <%= noticia.titulo %>
+                        </h5>
+                        <p class="card-text flex-grow-1">
+                            <%= noticia.descripcion.substring(0, 80) %>...
+                        </p>
+                        <a href="/noticias/<%= noticia.id %>" class="btn btn-secondary boreder-light-subtle mt-auto">Ver
+                            detalle</a>
+                    </div>
+                </div>
+            </div>
+            <% }) %>
+    </div>
+
+    <!-- PAGINACIÓN -->
+    <nav aria-label="Page navigation" class="mt-4">
+        <ul class="pagination justify-content-center">
+            <% for(let i=1; i <=totalPages; i++) { %>
+                <li class="page-item <%= i === page ? 'active' : '' %>">
+                    <a class="page-link <%= i === page 
+                        ? 'bg-secondary-subtle text-secondary border border-secondary' 
+                        : 'bg-secondary text-white border border-light' %>" href="?page=<%= i %>">
+                        <%= i %>
+                    </a>
+                </li>
+                <% } %>
+        </ul>
+    </nav>
+</div>

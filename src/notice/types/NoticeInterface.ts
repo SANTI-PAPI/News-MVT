@@ -1,9 +1,12 @@
 export interface NoticeInterface {
     id: number;
     titulo: string;
-    participante: string;
-    fecha_proyecto: string;
+    descripcion: string;
+    participantes: string[];
+    fecha: string;
+    materia: string;
     imagen: string;
-    descripcion_corta: string;
-    descripcion_completa: string;
+    imagenes: string[];
+    comentarios: { usuario: string; mensaje: string; fecha: string}[];
+    
 }
