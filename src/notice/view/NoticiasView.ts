@@ -29,7 +29,7 @@ export default class NoticiasView {
     };
 
     public readonly renderNoticiaDetalle = async (req: Request, res: Response): Promise<void> => {
-        const id =req.params["id"] ? Number.parseInt(req.params["id"],10) : 0;
+        const id = req.params["id"] ? Number.parseInt(req.params["id"], 10) : 0;
         const noticia = this.model.getNoticiaById(id);
 
         if (!noticia) {
@@ -45,6 +45,24 @@ export default class NoticiasView {
         res.render("layout", {
             title: noticia.titulo,
             body: detalleHTML,
+        });
+    };
+    public readonly renderBusqueda = async (req: Request, res: Response): Promise<void> => {
+        const query = (req.query["q"] as string) || "";
+        const noticias = this.model.searchNoticias(query);
+
+        const busquedaHTML = await ejs.renderFile(
+            path.join(__dirname, "../template/busqueda.ejs"),
+            {
+                noticias,
+                query,
+                total: noticias.length
+            }
+        );
+
+        res.render("layout", {
+            title: `Búsqueda: ${query}`,
+            body: busquedaHTML,
         });
     };
 }

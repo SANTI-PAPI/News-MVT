@@ -11,6 +11,7 @@ export default class NoticiasRouter {
     }
     private readonly routes = (): void => {
         this.router.get("/", this.NoticiasView.renderNoticias);
+        this.router.get("/buscar", this.NoticiasView.renderBusqueda)
         this.router.get("/:id", this.NoticiasView.renderNoticiaDetalle.bind(this.NoticiasView));
 
     }

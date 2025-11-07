@@ -1,0 +1,53 @@
+<!-- src/notice/template/busqueda.ejs -->
+<div class="container mt-4">
+    <div class="noticia-header mb-4">
+        <h2 class="noticia-titulo">Resultados de búsqueda</h2>
+        <p class="materia-fecha">Buscando: <strong>"<%= query %>"</strong></p>
+    </div>
+    
+    <% if (total === 0) { %>
+        <div class="alert alert-info" role="alert">
+            <h5>No se encontraron proyectos</h5>
+            <p class="mb-0">No hay proyectos que coincidan con tu búsqueda "<%= query %>"</p>
+        </div>
+        <div class="mt-3">
+            <a href="/noticias" class="btn btn-primary">Ver todos los proyectos</a>
+        </div>
+    <% } else { %>
+        <p class="text-muted mb-4">Se encontraron <strong><%= total %></strong> proyecto(s)</p>
+        
+        <div class="row">
+            <% noticias.forEach(noticia => { %>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="noticia-imagen-principal" style="height: 220px; overflow: hidden;">
+                            <img src="<%= noticia.imagen %>" class="card-img-top w-100 h-100" alt="<%= noticia.titulo %>" style="object-fit: cover;">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title text-dark"><%= noticia.titulo %></h5>
+                            <p class="card-text text-muted flex-grow-1">
+                                <%= noticia.descripcion.length > 120 ? noticia.descripcion.substring(0, 120) + '...' : noticia.descripcion %>
+                            </p>
+                            <div class="mt-auto">
+                                <p class="materia-fecha mb-2">
+                                    <strong>Materia:</strong> <%= noticia.materia %><br>
+                                    <strong>Fecha:</strong> <%= noticia.fecha %>
+                                </p>
+                                <% if (noticia.participantes && noticia.participantes.length > 0) { %>
+                                    <p class="text-muted mb-2">
+                                        <small><strong>Integrantes:</strong> <%= noticia.participantes.length %></small>
+                                    </p>
+                                <% } %>
+                                <a href="/noticias/<%= noticia.id %>" class="btn btn-primary w-100">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+        
+        <div class="mt-4 mb-4 text-center">
+            <a href="/noticias" class="btn btn-secondary">← Volver a todos los proyectos</a>
+        </div>
+    <% } %>
+</div>

@@ -27,4 +27,29 @@ export default class NoticiasModel {
         const jsonData = JSON.parse(data);
         return jsonData.noticias as NoticeInterface[];
     }
+
+    searchNoticias(query: string): NoticeInterface[] {
+        const allNoticias = this.getAllNoticias();
+        const searchTerms = query.toLowerCase().trim().split(/\s+/); // Separa por espacios
+
+        if (searchTerms.length === 0 || searchTerms[0] === '') {
+            return allNoticias;
+        }
+
+        return allNoticias.filter(noticia => {
+            const titulo = noticia.titulo.toLowerCase();
+            const descripcion = noticia.descripcion.toLowerCase();
+            const materia = noticia.materia.toLowerCase();
+            const participantes = noticia.participantes.map(p => p.toLowerCase()).join(' ');
+
+            return searchTerms.some(term => {
+                return (
+                    titulo.includes(term) ||
+                    descripcion.includes(term) ||
+                    materia.includes(term) ||
+                    participantes.includes(term)
+                );
+            });
+        });
+    }
 }
