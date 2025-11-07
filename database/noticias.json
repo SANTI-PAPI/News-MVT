@@ -43,10 +43,10 @@
             ],
             "fecha": "2025-10-28",
             "materia": "Proyecto integrador 2",
-            "imagenPrincipal": "images/ELDAR/new3.jpg",
+            "imagenPrincipal": "/images/ELDAR/new3.jpg",
             "imagenes": [
-                "images/ELDAR/new1.jpg",
-                "images/ELDAR/new4.jpg"
+                "/images/ELDAR/new1.jpg",
+                "/images/ELDAR/new4.jpg"
             ],
             "comentarios": []
         },
@@ -63,10 +63,10 @@
             ],
             "fecha": "2025-10-28",
             "materia": "Proyecto integrador 2",
-            "imagenPrincipal": "images/KRYZE/kry1.jpg",
+            "imagenPrincipal": "/images/KRYZE/kry1.jpg",
             "imagenes": [
-                "images/KRYZE/kry2.jpg",
-                "images/KRYZE/kry6.jpg"
+                "/images/KRYZE/kry2.jpg",
+                "/images/KRYZE/kry6.jpg"
             ],
             "comentarios": [
                 {
@@ -120,15 +120,14 @@
             "materia": "Proyecto integrador 2",
             "imagenPrincipal": "/images/WREN/wa1.jpg",
             "imagenes": [
-                "2_1.jpg",
-                "2_2.jpg"
+                
             ],
             "comentarios": []
         },
         {
             "id": 6,
             "titulo": "ARRYN",
-            "descripcion":  "Se presentó un sistema que permite la busqueda de un producto en diferentes paginas por medio de web scrapping comparando los precios y calificaciones de los mismos y realizando recomendaciones personalizadas de con un algoritmo de IA",
+            "descripcion": "Se presentó un sistema que permite la busqueda de un producto en diferentes paginas por medio de web scrapping comparando los precios y calificaciones de los mismos y realizando recomendaciones personalizadas de con un algoritmo de IA",
             "participantes": [
                 "Juan Camilo Gómez Manotas ",
                 "Juan David Monsalve Niño ",
@@ -162,10 +161,8 @@
             ],
             "fecha": "2025-10-28",
             "materia": "Proyecto integrador 2",
-            "imagenPrincipal": "seguridad.jpg",
+            "imagenPrincipal": "/images/BARATHEON/equipobaratheon_logo.png",
             "imagenes": [
-                "2_1.jpg",
-                "2_2.jpg"
             ],
             "comentarios": [
                 {
@@ -273,7 +270,6 @@
                 "/images/TYRREL/ty4.jpg",
                 "/images/TYRREL/ty5.jpg",
                 "/images/TYRREL/ty6.jpg"
-                
             ],
             "comentarios": [
                 {
@@ -310,7 +306,6 @@
                     "fecha": "2025-10-30T18:45:00"
                 },
                 {
-
                     "usuario": "ing Francisco Jesús Molina Bovea ",
                     "mensaje": "el profe francisco remarco que estuvieron leyendo todas las diapositivas, adicionalmente, argumento que no tenian marco conceptual y que se veia muy improvisado, finalmente comento que colocaron objetivos en el marco conceptual",
                     "fecha": "2025-10-30T19:00:00"
@@ -329,12 +324,8 @@
             "fecha": "2025-10-29",
             "materia": "Estructuras de Datos",
             "imagenPrincipal": "seguridad.jpg",
-            "imagenes": [
-            
-            ],
-            "comentarios": [
-                
-            ]
+            "imagenes": [],
+            "comentarios": []
         },
         {
             "id": 14,
@@ -346,12 +337,12 @@
             ],
             "fecha": "2025-10-29",
             "materia": "Estructuras de Datos",
-            "imagenPrincipal": "/images/grupo2estrucuturas/1.jpg",
+            "imagenPrincipal": "/images/grupo2estrucuras/1.jpg",
             "imagenes": [
-                "/images/grupo2estrucuturas/2.jpg",
-                "/images/grupo2estrucuturas/3.jpg",
-                "/images/grupo2estrucuturas/4.jpg",
-                "/images/grupo2estrucuturas/5.jpg"
+                "/images/grupo2estrucuras/2.jpg",
+                "/images/grupo2estrucuras/3.jpg",
+                "/images/grupo2estrucuras/4.jpg",
+                "/images/grupo2estrucuras/5.jpg"
             ],
             "comentarios": [
                 {
@@ -397,16 +388,22 @@
             "titulo": "RANA SHOES",
             "descripcion": "sistema en el cual gestionaban la creacion de zapatos, permitiendo sistematizar el proceso productivo, sin embargo la presentacion fue deficiente, destacando que presentaron un diagrama de clases sin sentido, y que los requerimientos no especificaban nada. Cabe destacar que el grupo empezo la presentacion sin un integrante.",
             "participantes": [
-                "Ana ",
-                "Luis ",
-                "Marta "
+                "Santiago Sanabria Uribe",
+                "Angy Natlia Mejía Delgado ",
+                "Cristian Camilo Chaparro Carvajal ",
+                "Andres Daniel Florez Mendoza ",
+                "Daniel Fernando Holguín Sánchez ",
+                "Javier Alexander Salazar Flórez "
             ],
-            "fecha": "2025-10-30",
-            "materia": "Arquitectura de Software",
-            "imagenPrincipal": "seguridad.jpg",
+            "fecha": "2025-10-29",
+            "materia": "Ingeniería de Software",
+            "imagenPrincipal": "/images/RANASHOES/RA1.jpg",
             "imagenes": [
-                "2_1.jpg",
-                "2_2.jpg"
+                "/images/RANASHOES/RA2.jpg",
+                "/images/RANASHOES/RA3.jpg",
+                "/images/RANASHOES/RA4.jpg",
+                "/images/RANASHOES/RA5.jpg",
+                "/images/RANASHOES/RA6.jpg"
             ],
             "comentarios": [
                 {
@@ -418,19 +415,20 @@
         },
         {
             "id": 17,
-            "titulo": "Grupo Alfa",
-            "descripcion": "Se llevó a cabo la presentación del nuevo sistema de noticias con arquitectura MVT.",
+            "titulo": "Veterinaria SOS",
+            "descripcion": "Se llevó a cabo la presentación de su sistema de gestion de inventarios, ventas, clientes, proveedores e insumos para una veterinaria y spa. El grupo implemento los patrones singleton y factory para contener la generacion de informes, al no tener marco conceptual, solamente explicaron su marco tecnologico. Utilizaron la metodologia espiral y se comunicaron con el cliente mediante documentos firmados.",
             "participantes": [
                 "Ana ",
                 "Luis ",
                 "Marta "
             ],
-            "fecha": "2025-11-01",
-            "materia": "Desarrollo Web",
-            "imagenPrincipal": "seguridad.jpg",
+            "fecha": "2025-10-29",
+            "materia": "Ingeniería de Software",
+            "imagenPrincipal": "/images/VETERINARIASOS/VE1.jpg",
             "imagenes": [
-                "2_1.jpg",
-                "2_2.jpg"
+                "/images/VETERINARIASOS/VE2.jpg",
+                "/images/VETERINARIASOS/VE3.jpg",
+                "/images/VETERINARIASOS/VE4.jpg"
             ],
             "comentarios": [
                 {
@@ -447,37 +445,46 @@
         },
         {
             "id": 18,
-            "titulo": "Equipo Beta",
-            "descripcion": "El grupo Beta completó la implementación del sistema de búsqueda en el menú principal.",
+            "titulo": "AVITECH",
+            "descripcion": "El equipo presento un sistema que media el tamaño de los huevos de los galpones de una finca. Sin embargo la exposicion fue lamentable, siendo recalcado por todos los docentes que se tenia nulo conocimiento del tema. El grupo trabajo con los principios SOLID y los patrones Observer y factory, asi como una arquitectura MVC.",
             "participantes": [
-                "Ana ",
-                "Luis ",
-                "Marta "
+                "Simon Péres Gómez ",
+                "Carlos Pimiento Fonseca ",
+                "Melissa Paterson Calderón ",
+                "Isabella Montoya Granados ",
+                "José Orlando Porras Prada ",
+                "Andrés Felipe Sánchez Palacio "
             ],
-            "fecha": "2025-10-31",
-            "materia": "Programación Avanzada",
-            "imagenPrincipal": "seguridad.jpg",
+            "fecha": "2025-10-29",
+            "materia": "Ingeniería de Software",
+            "imagenPrincipal": "/images/AVITECH/AV1.jpg",
             "imagenes": [
-                "2_1.jpg",
-                "2_2.jpg"
+                "/images/AVITECH/AV2.jpg",
+                "/images/AVITECH/AV3.jpg",
+                "/images/AVITECH/AV4.jpg",
+                "/images/AVITECH/AV5.jpg",
+                "/images/AVITECH/AV6.jpg",
+                "/images/AVITECH/AV7.jpg",
+                "/images/AVITECH/AV8.jpg"
             ],
             "comentarios": []
         },
         {
             "id": 19,
-            "titulo": "Desarrolladores Gamma",
-            "descripcion": "Publicaron un artículo sobre cómo mantener una arquitectura limpia con TypeScript y Express.",
+            "titulo": "BIFROST",
+            "descripcion": "Sistema que centraliza la gestion de procesos, que promueva la integracion efectiva entre los centros del parque tecnologico su presentacion fue deficiente, provocando que en ningun momento se diese a entender de que trataba realmente el sistema y mostrando un marco conceptual inentendible. El equipo utilizo el marco de trabajo Scrum argumentando que les favorecio a trabajar con diferentes conexiones y ritmo entre los miembros del grupo",
             "participantes": [
-                "Ana ",
-                "Luis ",
-                "Marta "
+                "Erick David García Bernate ",
+                "Sergio Iván Guerra Suarez ",
+                "Andrés Felipe Pinzón Camacho ",
+                "Hansel Santiago Saavedra Martinez"
             ],
-            "fecha": "2025-10-30",
-            "materia": "Arquitectura de Software",
-            "imagenPrincipal": "seguridad.jpg",
+            "fecha": "2025-10-29",
+            "materia": "Proyecto integrador 1",
+            "imagenPrincipal": "/images/BIFROST/BI1.JPG",
             "imagenes": [
-                "2_1.jpg",
-                "2_2.jpg"
+                "/images/BIFROST/BI2.JPG",
+                "/images/BIFROST/BI3.JPG"
             ],
             "comentarios": [
                 {
@@ -489,19 +496,160 @@
         },
         {
             "id": 20,
-            "titulo": "Desarrolladores Gamma",
-            "descripcion": "Publicaron un artículo sobre cómo mantener una arquitectura limpia con TypeScript y Express.",
+            "titulo": "BIOCONECTA S.A.S",
+            "descripcion": "el grupo presento su sistema para la gestion de proyectos tecnologicos, presentando funciones basicas de agregacion, edicion y eliminacion de tareas y usuarios, la presentacion fue deficiente, pues no se entendia el objetivo del sistema.",
             "participantes": [
-                "Ana ",
-                "Luis ",
-                "Marta "
+                "Juan Sebastián Hernandez Remolina ",
+                "Karen Lisseth Adarme Gómez ",
+                "Caren Julieth Diaz Calderon",
+                "Ivan Andres Lopez Panesso ",
+                "Sebastian Neira Ramirez ",
+                "Miguel José Vargas Martínez"
             ],
-            "fecha": "2025-10-30",
-            "materia": "Arquitectura de Software",
-            "imagenPrincipal": "seguridad.jpg",
+            "fecha": "2025-10-29",
+            "materia": "Proyecto integrador 1",
+            "imagenPrincipal": "/images/BIOCONECTA/BIO1.JPG",
             "imagenes": [
-                "2_1.jpg",
-                "2_2.jpg"
+                "/images/BIOCONECTA/BIO2.JPG",
+                "/images/BIOCONECTA/BIO3.JPG",
+                "/images/BIOCONECTA/BIO4.JPG"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "titulo": "ECOPHOS",
+            "descripcion": "El grupo Ecophos presento su sistema para la gestion de energias renovables, este se enfocaba en servir como gestor para las energias renovables proporcionadas por terceros, sin embargo esto no se explico correctamente en la presentacion, provocando que se pensara que el proyecto buscaba 'implementar energias renovables'",
+            "participantes": [
+                "Johan Sebasian  Almeida ",
+                "Leonel David Villamizar ",
+                "Ronald Arenales Peña",
+                "Claudia Natalia Suarez ",
+                "Andersson Joneyder Tapias ",
+                "Iván Mateo Gonzales"
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Proyecto integrador 1",
+            "imagenPrincipal": "/images/ECOPHOS/EC1.JPG",
+            "imagenes": [
+                "/images/ECOPHOS/EC1.JPG",
+                "/images/ECOPHOS/EC2.JPG",
+                "/images/ECOPHOS/EC3.JPG"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "titulo": "AGROTECHNOVA",
+            "descripcion": "El grupo presento su sistema que permitia administrar sus proyectos de forma eficaz por medio de acceso a herramientas tecnologicas, orientacion y monitoreo consante el cual debía contar con módulos de gestión de recursos enfocados en los campesinos y contribuir en el entorno agrónomo del país.",
+            "participantes": [
+                "Elian Camilo Lamus Ruiz ",
+                "Paula Andrea Rodriguez Cifuentes",
+                "Daniela Quiroga Cubides",
+                "Sergio Andrés Espinel ",
+                "Alexer Mauricio Valero Quevedo"
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Proyecto integrador 1",
+            "imagenPrincipal": "/images/AGROTECHNOVA/AC2.JPG",
+            "imagenes": [
+                "/images/AGROTECHNOVA/AC3.JPG",
+                "/images/AGROTECHNOVA/AC4.JPG",
+                "/images/AGROTECHNOVA/AC5.JPG"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "titulo": "J&C AUTOMATION & ROBOTICS",
+            "descripcion": "El grupo presento una plataforma web que permita la gestion integral de proyetos de automatizacion y robotica, incorporando servicios de seguimiento, control y asesoria virtual, la presentacion no destaco en nada en particular",
+            "participantes": [
+                "Melany Mejía Niño ",
+                "Samuel Castro Ruiz ",
+                "Keynner Andrés Loaiza Ávila",
+                "Dilan Kaleth Meneses Vega ",
+                "Erick Emanuel Tamayo Díaz ",
+                "Iván Felipe Lastre Guerrero"
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Proyecto integrador 1",
+            "imagenPrincipal": "/images/J&C/J1.JPG",
+            "imagenes": [
+                "/images/J&C/J1.JPG",
+                "/images/J&C/J2.JPG",
+                "/images/J&C/J3.JPG"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "titulo": "CYBERINTEGRITY",
+            "descripcion": "el grupo presento su sistema para la gestion de proyectos tecnologicos, presentando funciones basicas de agregacion, edicion y eliminacion de tareas y usuarios, la presentacion fue deficiente, pues no se entendia el objetivo del sistema.",
+            "participantes": [
+                "Andrés Santiago Ayala Mantilla ",
+                "Juan David Rincón Cediel ",
+                "José David Soria Rojas",
+                "Jairo Esteban Porras Barajas"
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Proyecto integrador 1",
+            "imagenPrincipal": "/images/CYBER/CY1.JPG",
+            "imagenes": [
+                "/images/CYBER/CY2.JPG",
+                "/images/CYBER/CY13.JPG",
+                "/images/CYBER/CY14.JPG"
+            ],
+            "comentarios": [
+                {
+                    "usuario": "Carlos Pérez",
+                    "mensaje": "Muy buena explicación sobre la capa de infraestructura.",
+                    "fecha": "2025-10-30T18:45:00"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "titulo": "olita",
+            "descripcion": "el grupo presento su sistema para la gestion de proyectos tecnologicos, presentando funciones basicas de agregacion, edicion y eliminacion de tareas y usuarios, la presentacion fue deficiente, pues no se entendia el objetivo del sistema.",
+            "participantes": [
+                "Juan Sebastián Hernandez Remolina ",
+                "Karen Lisseth Adarme Gómez ",
+                "Caren Julieth Diaz Calderon",
+                "Ivan Andres Lopez Panesso ",
+                "Sebastian Neira Ramirez ",
+                "Migeul José Vargas Martínez"
+            ],
+            "fecha": "2025-10-29",
+            "materia": "Proyecto integrador 1",
+            "imagenPrincipal": "/images/BIOCONECTA/BIO1.JPG",
+            "imagenes": [
+                "/images/BIOCONECTA/BIO2.JPG",
+                "/images/BIOCONECTA/BIO3.JPG",
+                "/images/BIOCONECTA/BIO4.JPG"
             ],
             "comentarios": [
                 {
@@ -511,7 +659,5 @@
                 }
             ]
         }
-        
     ]
-
 }

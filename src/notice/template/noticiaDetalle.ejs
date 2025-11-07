@@ -1,50 +1,84 @@
-<div class="container mt-5">
-    <h2 class="mb-3">
-        <%= noticia.titulo %>
-    </h2>
-    <p class="text-muted text-">Materia: <strong>
-            <%= noticia.materia %>
-        </strong> | Fecha: <%= noticia.fecha %>
-    </p>
-
-    <img src="<%= noticia.imagenPrincipal %>" class="img-fluid rounded mb-4" alt="<%= noticia.titulo %>">
-
-    <p>
-        <%= noticia.descripcion %>
-    </p>
-
-    <h5 class="mt-5 mb-3">Galería del evento</h5>
-    <div id="carouselNoticia" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <% noticia.imagenes.forEach((img, index)=> { %>
-                <div class="carousel-item <%= index === 0 ? 'active' : '' %>">
-                    <img src="<%= img %>" class="d-block w-100 rounded" alt="<%= index + 1 %>">
-                </div>
-                <% }); %>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticia" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticia" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+<div class="container mt-4 noticia-detalle">
+    <!-- CABECERA -->
+    <div class="noticia-header">
+        <h2 class="noticia-titulo">
+            <%= noticia.titulo %>
+        </h2>
+        <p class="materia-fecha">Materia: <strong>
+                <%= noticia.materia %>
+            </strong> | Fecha: <%= noticia.fecha %>
+        </p>
     </div>
 
-    <div class="mt-5">
+    <!-- CONTENIDO PRINCIPAL - DOS COLUMNAS -->
+    <div class="contenido-principal">
+        <!-- COLUMNA IZQUIERDA: IMAGEN -->
+        <div class="columna-izquierda">
+            <div class="noticia-imagen-principal">
+                <img src="<%= noticia.imagenPrincipal %>" alt="<%= noticia.titulo %>">
+            </div>
+        </div>
+
+        <!-- COLUMNA DERECHA: DESCRIPCIÓN E INTEGRANTES -->
+        <div class="columna-derecha">
+            <div class="noticia-descripcion">
+                <h4>Descripción del Proyecto</h4>
+                <p>
+                    <%= noticia.descripcion %>
+                </p>
+            </div>
+
+            <div class="integrantes-section">
+                <h4>Integrantes (<%= noticia.participantes ? noticia.participantes.length : 6 %>)</h4>
+                <div class="integrantes-lista">
+                    <% const integrantes = noticia.participantes%>
+                    
+                    <% integrantes.forEach(integrante => { %>
+                        <div class="integrante-item">
+                            <span class="integrante-nombre"><%= integrante %></span>
+                        </div>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GALERÍA - OCUPA 2 COLUMNAS -->
+    <div class="galeria-full-width">
+        <h5>Galería del evento</h5>
+        <div id="carouselNoticia" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <% noticia.imagenes.forEach((img, index)=> { %>
+                    <div class="carousel-item <%= index === 0 ? 'active' : '' %>">
+                        <img src="<%= img %>" alt="<%= index + 1 %>">
+                    </div>
+                <% }); %>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticia" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticia" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- SECCIÓN DE COMENTARIOS -->
+    <div class="noticia-comentarios mt-5">
         <h5>Comentarios</h5>
-        <% if (noticia.comentarios.length> 0) { %>
-            <ul class="list-group">
+        <% if (noticia.comentarios && noticia.comentarios.length > 0) { %>
+            <ul class="list-group list-group-flush bg-light p-3 rounded">
                 <% noticia.comentarios.forEach(c=> { %>
-                    <li class="list-group-item">
+                    <li class="list-group-item bg-transparent border-0 border-bottom">
                         <strong>
                             <%= c.usuario %>:
                         </strong>
                         <%= c.mensaje %>
                     </li>
-                    <% }); %>
+                <% }); %>
             </ul>
-            <% } else { %>
-                <p class="text-muted">No hay comentarios aún.</p>
-                <% } %>
+        <% } else { %>
+            <p class="text-muted">No hay comentarios aún.</p>
+        <% } %>
     </div>
 </div>

@@ -38,7 +38,8 @@ export default class Server {
         this.app.set('views', [
             path.join(__dirname, './menu/template'),
             path.join(__dirname, './error/template'),
-            path.join(__dirname, './notice/template')
+            path.join(__dirname, './notice/template'),
+            path.join(__dirname, './about/template')
         ]);
     }
 
@@ -52,7 +53,7 @@ export default class Server {
 
     private readonly static = (): void => {
 
-        this.app.use(express.static(path.join(__dirname, './')))
+        this.app.use(express.static(path.join(__dirname, './')));
         this.app.use('/images', express.static(path.join(__dirname, '../database/images')));
 
     }
